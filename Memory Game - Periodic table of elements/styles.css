@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(255, 224, 102);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1 {
+    color: rgb(0, 119, 179);
+}
+
+img {
+  border-radius: 10%;
+  border: 5px solid rgb(0, 119, 179);
+}
+
+* p {
+  font-size: 150%;
+  text-align: center;
+}
+
+#deck {
+  width: 100%;
+  flex-wrap: wrap;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#deck img {
+  border: 5px solid rgb(0, 119, 179);
+  display: block;
+  width: 9%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.game-deck img:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.playAgain img:hover {
+  filter: saturate(300%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.game-result {
+  position: absolute;
+  padding: 15px 32px;
+  display: inline-block;
+  top: 35%;
+  left: 40%;
+}
+
+.playAgain {
+  position: absolute;
+  padding: 15px 32px;
+  display: inline-block;
+  top: 70%;
+  left: 43%;
+}
+
+.playAgain > p {
+  font-size: 80px;
+}

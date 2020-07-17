@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true,
+		"liveServer.settings.CustomBrowser": "chrome"
+	}
+}
