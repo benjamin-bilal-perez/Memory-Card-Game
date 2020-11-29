@@ -180,7 +180,7 @@ class Game {
 
         if (this._selectedPosition.length == 2) {
             this._selectionLocked = true;
-            setTimeout(this.verifyPairsOfCards.bind(this), 1500);
+            setTimeout(this.verifyPairsOfCards.bind(this), 1000);
         } 
     }
 
